@@ -1,0 +1,9 @@
+@using Microsoft.AspNetCore.Routing
+
+@{var culture = ((string)Context.GetRouteData().Values["culture"])?.ToLower() ?? "en"; }
+
+@await Html.PartialAsync("Help/algos/ethash-" + culture, Model, new ViewDataDictionary(ViewData)
+{
+    { "OfficialWalletUrl", "https://ethereumclassic.org/" },
+    { "WalletRegex", "^0x[a-fA-F0-9]{40}$" },
+})

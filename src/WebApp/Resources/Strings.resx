@@ -163,10 +163,10 @@
     <value>Pool Hashrate</value>
   </data>
   <data name="WelcomeH1Fmt" xml:space="preserve">
-    <value>A SEAMLESS POOL EXPERIENCE</value>
+    <value>Welcome to SumoHash</value>
   </data>
   <data name="WelcomeH2_1" xml:space="preserve">
-    <value>High performance and low fees Mining Pools</value>
+    <value>High performance and low fee mining</value>
   </data>
   <data name="WorkerCount" xml:space="preserve">
     <value>Miners</value>
